@@ -10,10 +10,10 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name="students")
+//@Table(name="students")
 public class Student {
     
-    @Id
+    @Id //Unique Identity and makes the primary key 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
