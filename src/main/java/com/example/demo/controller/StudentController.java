@@ -1,5 +1,5 @@
 
-package com.example.aiml.controller;
+package com.example.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,6 +13,7 @@ import com.example.demo.service.StudentService;
 public class StudentController {
     @Autowired
     StudentService studentService;
+
     @PostMapping("/postdata")
     public Student studentdata(@RequestBody Student stuobj){ 
         return studentService.saveStudent(stuobj);
