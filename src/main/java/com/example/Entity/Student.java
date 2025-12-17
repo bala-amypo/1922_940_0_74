@@ -10,7 +10,6 @@ import jakarta.persistence.Table;
 
 
 @Entity
-//@Table(name="students")
 public class Student {
     
     @Id //Unique Identity and makes the primary key 
