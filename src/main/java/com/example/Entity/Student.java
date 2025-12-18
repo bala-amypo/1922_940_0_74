@@ -36,7 +36,7 @@ public class Student {
         this.email = email;
     
     }
-    public Student(Long id, String name, String email, LocalDate dob, float cgpa) {
+    public Student(Long id, String name, String email,float cgpa) {
         this.id = id;
         this.name = name;
         this.email = email;
